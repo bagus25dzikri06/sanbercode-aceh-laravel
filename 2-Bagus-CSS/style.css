@@ -1,5 +1,5 @@
 body {
-    background-image: url("img/pattern.jpg");
+    background-image: url(img/pattern.jpg);
 }
 
 ul {
@@ -25,8 +25,14 @@ li a:hover {
     background-color: #111;
 }
 
+section {
+    background-color: whitesmoke;
+}
+
 footer {
     text-align: center;
     color: white;
     background-color: black;
+    height: 50px;
+    padding: 25px 25px;
 }
