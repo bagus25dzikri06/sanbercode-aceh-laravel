@@ -6,3 +6,16 @@
     padding-left: 60px;
     padding-right: 60px;
 }
+
+.container .col-md-4 {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#Section a {
+    color: lime;
+}
+
+#Feature a {
+    color: maroon;
+}
