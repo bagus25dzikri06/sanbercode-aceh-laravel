@@ -48,8 +48,12 @@
         */
 
         // Code kamu di sini
+        function teriak() {
+            document.getElementById("jawaban1").innerHTML = "Halo Function!"
+        }
 
         // Jalankan function teriak
+        teriak()
 
         // Soal No. 2 Fungsi Kalikan
         /* 
@@ -60,9 +64,12 @@
         */
 
         // Code kamu di sini
-
+        function kalikan(hiji, dua) {
+            document.getElementById("jawaban2").innerHTML = hiji * dua
+        }
 
         // Jalankan function kalikan
+        kalikan(4, 8)
 
         // Soal No. 3 Fungsi buatKalimat
         /* 
@@ -81,9 +88,14 @@
         */
 
         // Code kamu di sini
-
+        function buatKalimat(nama, usia, alamat, hobi) {
+            document.getElementById("jawaban3").innerHTML = 'Nama saya ' + nama +
+                ', umur saya ' + usia + ' tahun, alamat saya di ' + alamat +
+                ', dan saya punya hobby yaitu ' + hobi + '!'
+        }
 
         // Jalankan function buatKalimat
+        buatKalimat('Ahmad', 25, 'Pasir Putih', 'bermain gitar')
     </script>
 </body>
 
