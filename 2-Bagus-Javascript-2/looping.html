@@ -66,8 +66,19 @@
         */
         var jawaban1 = ""
             // Code kamu di sini, lakukan looping dengan while
+        jawaban1 = jawaban1 + "LOOPING PERTAMA <br>"
+        for (var i = 1; i <= 20; i++) {
+            if (i % 2 === 0) {
+                jawaban1 = jawaban1 + i + " - I love coding <br>"
+            }
+        }
 
-
+        jawaban1 = jawaban1 + "LOOPING KEDUA <br>"
+        for (var i = 20; i >= 1; i--) {
+            if (i % 2 === 0) {
+                jawaban1 = jawaban1 + i + " - I will become web developer <br>"
+            }
+        }
         // Driver Code, Jangan diganggu !
         document.getElementById("jawaban1").innerHTML = jawaban1
 
@@ -105,7 +116,15 @@
 
         var jawaban2 = ""
             // Code kamu di sini, lakukan looping dengan syntax for
-
+        for (var i = 1; i <= 20; i++) {
+            if (i % 2 === 0) {
+                jawaban2 = jawaban2 + i + " - Berkualitas <br>"
+            } else if ((i % 3 === 0) && (i % 2 !== 0)) {
+                jawaban2 = jawaban2 + i + " - I Love Coding <br>"
+            } else {
+                jawaban2 = jawaban2 + i + " - Santai <br>"
+            }
+        }
 
         document.getElementById("jawaban2").innerHTML = jawaban2
     </script>
